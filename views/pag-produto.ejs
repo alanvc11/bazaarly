@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bazaarly</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/CSS/pag-produto.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet"></head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>BAZAARLY</h1>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar produtos">
+            <button><i class="bi bi-search"></i></button> <!-- Ícone de pesquisa substituindo a imagem -->
+        </div>
+        <div class="header-icons">
+            <i class="bi bi-person"></i> <!-- Ícone de pessoa -->
+            <i class="bi bi-cart"></i> <!-- Ícone de carrinho -->
+            <i class="bi bi-heart"></i> <!-- Ícone de lista de desejos -->
+            <i class="bi bi-headset"></i>
+            <i class="bi bi-globe"></i> <!-- Ícone de globo -->
+            <a href="Naoencontrado"><i class="bi bi-arrow-left-circle"></i></a>
+            <a href="vazio"><i class="bi bi-arrow-right-circle"></i></a>
+        </div>
+    </header>
+    
+    
+
+    <nav>
+        <ul>
+            <li>Mobílias</li>
+            <li>Joias e Acessórios</li>
+            <li>Sapatos</li>
+            <li>Roupas de Bebê</li>
+            <li>Roupas Femininas</li>
+            <li>Roupas Masculinas</li>
+            <li>Esportes</li>
+            <li>Itens de Casa</li>
+            <li>Tecnologia e Eletrônicos</li>
+            <li>Livros</li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="search-results">
+            
+            <div class="container">
+                <div class="product-gallery">
+                    <button id="prevBtn" class="nav-btn">❮</button>
+                    <div class="image-display">
+                        <img id="mainImage" src="https://io.convertiez.com.br/m/feiradamadrugada/shop/products/images/418583152/medium/calca-jeans-wide-leg-feminina-pantalona-destroyed-cintura-alta-azul-claro_183907.jpg" alt="Calça Feminina Estampada">
+                    </div>
+                    <button id="nextBtn" class="nav-btn">❯</button>
+                    <div class="thumbnail">
+                        <img class="thumb" src="https://io.convertiez.com.br/m/feiradamadrugada/shop/products/images/418583152/medium/calca-jeans-wide-leg-feminina-pantalona-destroyed-cintura-alta-azul-claro_183907.jpg" alt="Calça 1">
+                        <img class="thumb" src="https://io.convertiez.com.br/m/feiradamadrugada/shop/products/images/418583152/medium/calca-jeans-wide-leg-feminina-pantalona-destroyed-cintura-alta-azul-claro_183907.jpg" alt="Calça 2">
+                    </div>
+                </div>
+        
+                <div class="product-info">
+                    <h1>Calça Feminina Estampada Casual</h1>
+                    <p class="price">R$ 31,30</p>
+        
+                    <div class="size-selection">
+                        <h3>Tamanho</h3>
+                        <div class="size-options">
+                            <button class="size-btn" data-size="P">P</button>
+                            <button class="size-btn" data-size="M">M</button>
+                            <button class="size-btn" data-size="G">G</button>
+                            <button class="size-btn" data-size="H">H</button>
+                        </div>
+                    </div>
+        
+                    <div class="quantity">
+                        <h3>Quantidade</h3> <!-- O título fica em uma linha separada -->
+                        <div class="quantity-controls"> <!-- Nova div para alinhar botões e input na mesma linha -->
+                            <button id="decreaseBtn">-</button>
+                            <input type="text" id="quantity" value="1">
+                            <button id="increaseBtn">+</button>
+                        </div>
+                    </div>
+                    
+        
+                    <button class="add-to-cart">Adicionar ao carrinho</button>
+                    <button class="buy-now">COMPRE AGORA</button>
+                </div>
+            </div>
+           
+        </section>
+        
+    </main>
+
+    <footer>
+        <div class="footer-section">
+            <h3>DÚVIDAS</h3>
+            <ul>
+                <li>Acompanhe seus pedidos</li>
+                <li>Dúvidas frequentes</li>
+                <li>Trocas e devoluções</li>
+            </ul>
+            <!-- Ícones de Visa e Mastercard -->
+            <i class="fa-brands fa-cc-visa payment-icon"></i>
+            <i class="fa-brands fa-cc-mastercard payment-icon"></i>
+        </div>
+        
+    
+        <div class="footer-section">
+            <h3>INSTITUCIONAL</h3>
+            <ul>
+                <li>Quem somos?</li>
+                <li>Política de Privacidade</li>
+                <li>Trabalhe conosco</li>
+            </ul>
+        </div>
+    
+        <div class="footer-section">
+            <h3>FALE CONOSCO</h3>
+            <p><i class="fas fa-phone"></i> (82) 91234-5678</p> <br> <!-- Ícone de telefone -->
+            <p><i class="fas fa-envelope"></i> bazaarly@loja.com.br</p> <!-- Ícone de e-mail -->
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
