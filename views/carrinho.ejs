@@ -17,13 +17,11 @@
             <button><i class="bi bi-search"></i></button> <!-- Ícone de pesquisa substituindo a imagem -->
         </div>
         <div class="header-icons">
-            <i class="bi bi-person"></i> <!-- Ícone de pessoa -->
+            <a href="/cadastrar"><i class="bi bi-person"></i></a> <!-- Ícone de pessoa -->
             <i class="bi bi-cart"></i> <!-- Ícone de carrinho -->
             <i class="bi bi-heart"></i> <!-- Ícone de lista de desejos -->
             <i class="bi bi-headset"></i>
             <i class="bi bi-globe"></i> <!-- Ícone de globo -->
-            <a href="vazio"><i class="bi bi-arrow-left-circle"></i></a>
-            <a href="pagamento"><i class="bi bi-arrow-right-circle"></i></a>
         </div>
     </header>
     
@@ -46,7 +44,7 @@
 
     <main>
         <section class="search-results">
-            <p><strong><i class="bi bi-cart3"></i>>Carrinho</strong></p>
+            <p><strong><i class="bi bi-cart3"></i>Carrinho</strong></p>
             <div class="card">
                 <img src="https://jfpratas.com.br/site/uploads/2024/01/IMG-20220301-WA0000-150x150.webp" alt="Produto 1">
                 <div class="card-details">
@@ -115,9 +113,15 @@
                     <p>à vista no Pix e boleto ou <br>R$34,90 no cartão de crédito</p>
                 </div>
             </div> <br>
-            <button class="subtotal">SubTotal(3 produtos):R$ XX,XX</button> <br> <br>
 
+            <div class="summary">
+                <p>Total (3 produtos):</p>
+                <p class="total-value">R$ XX,XX</p>
+            </div>
+            
            <button class="finalizar">FINALIZAR PEDIDO</button>
+
+           <button class="adicionar-carrinho">ADICIONAR MAIS ITENS AO CARRINHO</button>
         </section>
         
     </main>
